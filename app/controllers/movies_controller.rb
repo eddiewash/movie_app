@@ -2,7 +2,7 @@ class MoviesController < ApplicationController
   def index
     @movies = Movie.all
     @movie_one = @movies.first
-    @movie_two = @movies[2]
+    @movie_two = @movies[6]
     @movie_three = @movies.last
   end
 
