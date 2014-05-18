@@ -1,4 +1,4 @@
-<h1 style="font-size: 5em;">Top 3 Trailers</h1>
+<h1 style="font-family: Impact, Charcoal, sans-serif; font-size: 45px;">Top 3 Trailers</h1>
 
 <div style="text-align:center;">
   <h1>#1 <%= @movie_one.title %> (<%= @movie_one.rating %> Votes)</h1>
@@ -13,6 +13,6 @@
     <iframe src=<%= @movie_three.url %> frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div style="text-align:center;">
-  <h2><%= link_to "Rate Trailers", root_path %></h2>
+<div style="text-align:center; padding: 3em;">
+  <a href="/"<button name="button" type="submit" class="button">Rate Trailers</button></a>
 </div>
