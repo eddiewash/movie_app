@@ -1,7 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Movie.create title: "Dawn of the Plant of the Apes", url: "//www.youtube.com/embed/3sHMCRaS3ao"
+Movie.create title: "Neighbors", url: "//www.youtube.com/embed/grDDv2TB-pA"
+Movie.create title: "Guardians of the Galaxy", url: "//www.youtube.com/embed/pTZ2Tp9yXyM"
+Movie.create title: "Million Dollar Arm", url: "//www.youtube.com/embed/nl4QeQzIkOM"
+Movie.create title: "Transformers: Age of Extinction", url: "//www.youtube.com/embed/pbI980iUb78"
+Movie.create title: "A Million Ways to Die in the West", url: "//www.youtube.com/embed/CXxqG4aqwY4"
+Movie.create title: "Hercules", url: "//www.youtube.com/embed/4JZhGYrgCPg"
+Movie.create title: "Teenage Mutant Ninja Turtles", url: "//www.youtube.com/embed/VZZ0PnDZdZk"

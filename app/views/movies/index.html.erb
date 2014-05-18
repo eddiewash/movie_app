@@ -1,3 +1,18 @@
-<h1>Movie Trailers</h1>
+<h1 style="font-size: 5em;">Top 3 Trailers</h1>
 
-<iframe width="640" height="420" src="//www.youtube.com/embed/vIu85WQTPRc" frameborder="0" allowfullscreen></iframe>
+<div style="text-align:center;">
+  <h1>#1 <%= @movie_one.title %> (<%= @movie_one.rating %> Votes)</h1>
+  <iframe src=<%= @movie_one.url %> frameborder="0" allowfullscreen></iframe>
+</div>
+<div style="text-align:center;">
+  <h1>#2 <%= @movie_two.title %> (<%= @movie_two.rating %> Votes)</h2>
+    <iframe src=<%= @movie_two.url %> frameborder="0" allowfullscreen></iframe>
+</div>
+<div style="text-align:center;">
+  <h1>#3 <%= @movie_three.title %> (<%= @movie_three.rating %> Votes)</h2>
+    <iframe src=<%= @movie_three.url %> frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div style="text-align:center;">
+  <h2><%= link_to "Rate Trailers", root_path %></h2>
+</div>

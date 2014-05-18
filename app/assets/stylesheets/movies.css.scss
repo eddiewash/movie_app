@@ -1,3 +1,71 @@
-// Place all the styles related to the Movies controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1, h2 {
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+}
+
+html {
+  background: url("http://2.bp.blogspot.com/-D_o0N_qeXxg/TzZ0_jmer4I/AAAAAAAAYtk/a-65Mfmx3Zk/s1600/Space-pictures-galaxy-wallpapers-hd-galaxy-wallpaper-psupero-4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+iframe {
+  width: 35em;
+  height: 25em;
+}
+
+.center {
+  text-align: center;
+  padding-top: 2em;
+}
+
+img {
+  width: 6em;
+  height: 4em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wrapper {
+  padding: 0 4.5em 4.5em 4.5em;
+  float: left;
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 10px 15px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 26px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   }
+
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

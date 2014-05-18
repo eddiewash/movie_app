@@ -1,2 +1,28 @@
-<h1>Movies#show</h1>
-<p>Find me in app/views/movies/show.html.erb</p>
+<h1>P-Tech Hackathon</h1>
+<h2>Trailer Battles</h2>
+
+<div class="center">
+  <a href="/"<button name="button" type="submit" class="button">New</button></a>
+</div>
+
+<div class="wrapper">
+  <h1><%= @movie_one.title %></h1>
+  <iframe src=<%= @movie_one.url %> frameborder="0" allowfullscreen></iframe>
+  <div class="center">
+    <a href="/"<button name="button" type="submit" class="button">Upvote</button></a>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div>
+    <h1><%= @movie_two.title %></h1>
+    <iframe src=<%= @movie_two.url %> frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="center">
+    <a href="/"<button name="button" type="submit" class="button">Upvote</button></a>
+  </div>
+</div>
+
+<div style="text-align:center;">
+  <h2><%= link_to "Top 3 Trailers", movies_path %></h2>
+</div>
